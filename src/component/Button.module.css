@@ -1,0 +1,68 @@
+.buttonn{
+    border: 2px solid black;
+    width:17vw;
+    height: 8vh;
+    margin-top: 20px;
+}
+
+
+
+.landingbox{
+    width:60vw;
+    height: 60vh;
+    border: 0px solid black;
+    margin: 40px;
+    margin-left: 20%;
+    text-align: center;
+    box-shadow: 0px 0px 8px black;
+    border-radius: 4px;
+    padding-top: 60px;
+     /* background-image: linear-gradient(to right, rgb(242, 104, 104) , yellow); */
+     /* background-color: rgb(121, 121, 246); */
+     background-color: rgb(249, 221, 184);
+}
+.inputbox{
+    width: 20vw;
+    height: 5vh;
+    font-weight: 600;
+   margin-top: 60px;
+   /* background-color: bisque; */
+}
+.selectlist{
+    width: 15vw;
+    height: 5vh;
+    margin-top: 17px;
+    
+}
+.formbox{
+    border: 1px solid black;
+    width: 45vw;
+    height: 45vh;
+    text-align: center;
+    margin-left: 140px;
+    /* background-image: radial-gradient(circle, rgb(237, 237, 54), rgb(21, 250, 21)); */
+    /* background-image: linear-gradient(to right, rgb(242, 104, 104) , yellow); */
+ 
+}
+label{
+    font-size:x-large;
+}
+h1{
+    text-shadow: -2px 2px 5px red;
+    margin-left: 40px;
+}
+
+    body{
+        background-color:#f1f37e;
+        background-color: red;
+        animation-name: example;
+        animation-duration: 9s;
+        animation-iteration-count: infinite;
+     }
+     @keyframes example {
+        0%   {background-color:coral;}
+        25%  {background-color: rgb(250, 250, 151);}
+        50%  {background-color: rgb(114, 114, 212);}
+        75%  {background-color:rgb(244, 91, 60);}
+        100% {background-color: green;}
+      }

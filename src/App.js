@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import React,{useState} from 'react'
+import Button from './component/Button';
+import{Routes, Route} from 'react-router-dom';
+import Quiz from './component/Quiz';
+// import QuizChem from './component/QuizChem';
+// import PhysicsQ from './component/PhysicsQ'
+// import MathQ from './component/MathQ'
 function App() {
+  const [sub,setSub]=useState("physicsQuiz")
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <Routes>
+    <Route path="/"  element={<Button setSub={setSub} sub={sub}/>}/>
+    <Route path="/quiz"  element={<Quiz sub={sub}/>}/>
+    {/* <Route path="/quizchem"  element={<QuizChem/>}/>
+    <Route path="/MathQ"  element={<MathQ/>}/>
+    <Route path="/PhysicsQ"  element={<PhysicsQ/>}/> */}
+
+   </Routes>
+
     </div>
   );
 }
-
 export default App;
+
+
