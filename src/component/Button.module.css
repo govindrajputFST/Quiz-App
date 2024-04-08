@@ -1,68 +1,89 @@
 .buttonn{
-    border: 2px solid black;
+    border: 2px solid rgb(213, 11, 11);
     width:17vw;
-    height: 8vh;
-    margin-top: 20px;
+    height: 13vh;
+    margin-top: 4vh;
+    font-weight: 900;
+    font-size: x-large;
+    overflow: scroll;
+}
+.buttonn:hover{
+    background-color: rgb(26, 142, 26);
+    transition: 2.5s;
 }
 
 
 
 .landingbox{
-    width:60vw;
-    height: 60vh;
+    width:85vw;
+    height: 78vh;
     border: 0px solid black;
     margin: 40px;
-    margin-left: 20%;
+    margin-left: 8%;
     text-align: center;
     box-shadow: 0px 0px 8px black;
     border-radius: 4px;
     padding-top: 60px;
      /* background-image: linear-gradient(to right, rgb(242, 104, 104) , yellow); */
      /* background-color: rgb(121, 121, 246); */
-     background-color: rgb(249, 221, 184);
+     background:url("https://www.shutterstock.com/image-vector/neon-quiz-sign-vector-design-260nw-1722883588.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;
+    
 }
 .inputbox{
-    width: 20vw;
+    width: 30vw;
     height: 5vh;
     font-weight: 600;
    margin-top: 60px;
    /* background-color: bisque; */
 }
+.inputboxx{
+    width: 29vw;
+    height: 5vh;
+    font-weight: 600;
+   margin-top: 20px;
+   /* background-color: bisque; */
+}
 .selectlist{
-    width: 15vw;
+    width: 29vw;
     height: 5vh;
     margin-top: 17px;
     
 }
 .formbox{
-    border: 1px solid black;
+ margin-top: 100px;
     width: 45vw;
     height: 45vh;
     text-align: center;
-    margin-left: 140px;
+    margin-left: 280px;
     /* background-image: radial-gradient(circle, rgb(237, 237, 54), rgb(21, 250, 21)); */
     /* background-image: linear-gradient(to right, rgb(242, 104, 104) , yellow); */
  
 }
 label{
     font-size:x-large;
+    font-weight: 700;
+    color: crimson;
 }
 h1{
     text-shadow: -2px 2px 5px red;
     margin-left: 40px;
+    /* color: aquamarine; */
 }
 
-    body{
-        background-color:#f1f37e;
-        background-color: red;
-        animation-name: example;
-        animation-duration: 9s;
-        animation-iteration-count: infinite;
-     }
-     @keyframes example {
-        0%   {background-color:coral;}
-        25%  {background-color: rgb(250, 250, 151);}
-        50%  {background-color: rgb(114, 114, 212);}
-        75%  {background-color:rgb(244, 91, 60);}
-        100% {background-color: green;}
-      }
+    
+body{
+    background-color:#b5b5b0;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+ }
+ @keyframes example {
+    0%   {background-color:rgb(172, 169, 167);}
+    25%  {background-color: rgb(251, 251, 152);}
+    50%  {background-color: rgb(63, 99, 245);}
+    75%  {background-color:rgb(244, 91, 60);}
+    100% {background-color: green;}
+  }

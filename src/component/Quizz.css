@@ -3,10 +3,20 @@
 } */
 
 .backimage{
-    margin-top: 10%;
+    border: 2px solid black;
+    box-shadow: 0px 0px 9px;
+    margin-top: 6%;
+    margin-left: 5%;
+    padding-top: 2%;
+    padding-right: 6%;
+    width: 83vw;
+    height: 76vh;
+    background:url("https://img.freepik.com/premium-photo/man-hand-holding-digital-question-mark-holographic-abstract-technology-background-q-discussion-faq-support-question-answer-help-service-business-concept_505353-506.jpg?size=626&ext=jpg&ga=GA1.1.1866107856.1712592116&semt=sph") ;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 .optionn{
-    border: 2px solid blue;
+    /* border: px solid blue; */
     width: 18vw;
     height: 6vh;
    margin: 30px;
@@ -27,7 +37,7 @@
 }
 
 .option{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 50vw;
     height: 50vh;
     margin-left: 25%; 
@@ -36,22 +46,38 @@
 }
 .ab{
     display: flex;
- 
+     /* justify-content: space-evenly; */
 }
 .quest{
-    border: 3px solid black;
+    /* border: 3px solid black; */
     width: 70vw;
     height: 12vh;
   /* padding-top: 30px; */
   font-weight: 500;
-  margin-left: 15%;
+  margin-left: 10%;
   font-size: xx-large;
   
 }
 .pre{
     margin: 70px;
     margin-right: 40%;
+    width: 8vw;
+    height: 7vh;
+    font-weight: 600;
+
 }
 .next{
-    margin-right: 90px;
+    margin-right: 110px;
+    width: 8vw;
+    height: 7vh;
+    font-weight: 600;
+}
+.scma{
+    display: flex;
+    justify-content:space-evenly;
+}
+.score{
+    color: rgb(142, 231, 18);
+    font-size: x-large;
+    font-weight: 900;
 }

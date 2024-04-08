@@ -91,7 +91,7 @@ export default function Quiz({ sub }) {
             // Check if selectedOption matches the correct answer
             if (selectedOption === subject[ind].isCorrect) {
                 // Increase score if answer is correct
-                setScore(score + 1);
+                setScore(score + 2);
             }
             // Move to the next question after submitting
             if (ind < 9) {
@@ -112,8 +112,13 @@ export default function Quiz({ sub }) {
     }
 
     return (
+
         <div className='backimage'>
-            <div className='quest'>{subject[ind].question}</div>
+            <div className='scma'>
+           
+           
+            </div>
+            <div className='quest'>{ind+1}. {subject[ind].question}</div>
             <div className='option'>
                 <div className='ab'>
                     <div
@@ -145,7 +150,7 @@ export default function Quiz({ sub }) {
                 </div>
                 <button onClick={handlePrev} className='pre'>Previous</button>
                 {ind < 9 ? <button onClick={handleSubmit} className='next'>Next</button> :
-                    <button onClick={handleSubmit} className='submit'>Submit</button>
+                    <button onClick={handleSubmit} className='next'>Submit</button>
                 }
                 {renderScore()}
             </div>
